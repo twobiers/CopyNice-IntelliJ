@@ -4,18 +4,16 @@ import com.intellij.codeInsight.hint.HintManager
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.CommonDataKeys
-import com.intellij.openapi.editor.LanguageIndentStrategy
 import com.intellij.openapi.editor.ex.util.EditorUtil
 import com.intellij.openapi.ide.CopyPasteManager
+import com.intellij.openapi.project.DumbAware
 import com.intellij.openapi.util.TextRange
-import com.intellij.psi.PsiDocumentManager
-import com.intellij.util.DocumentUtil
 import java.awt.datatransfer.StringSelection
 import java.io.BufferedReader
 import java.io.StringReader
 
 
-class CopyWithoutIndentation : AnAction() {
+class CopyWithoutIndentation : AnAction(), DumbAware {
   override fun update(e: AnActionEvent) {
     super.update(e)
     e.presentation.isVisible = e.presentation.isVisible
