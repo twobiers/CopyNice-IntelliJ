@@ -1,18 +1,19 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.twobiers.copyniceintellij</id>
-    <name>CopyNice-IntelliJ</name>
+    <id>com.github.twobiers.copynice</id>
+    <name>CopyNice</name>
     <vendor>twobiers</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.twobiers.copyniceintellij.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.twobiers.copyniceintellij.services.MyProjectService"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.twobiers.copyniceintellij.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <resource-bundle>messages.CopyNiceBundle</resource-bundle>
+
+    <actions>
+        <action id="com.github.twobiers.copynice.CopyWithoutIndentation" class="com.github.twobiers.copynice.actions.CopyWithoutIndentation">
+            <add-to-group group-id="Copy.Paste.Special" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>
