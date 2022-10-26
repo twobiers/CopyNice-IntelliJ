@@ -4,6 +4,13 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/com.github.twobiers.copynice.svg)](https://plugins.jetbrains.com/plugin/com.github.twobiers.copynice)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.twobiers.copynice.svg)](https://plugins.jetbrains.com/plugin/com.github.twobiers.copynice)
 
+<p align="center">
+  <img width="460" height="300" src="./src/main/resources/META-INF/pluginIcon.svg">
+</p>
+<p align="center">
+  <sub>Credits: <a href="https://openclipart.org/artist/kuba">kuba</a> from <a href="https://openclipart.org/detail/68959/copy-icon">OpenClipart</a></sub>
+</p>
+
 <!-- Plugin description -->
 
 An IntelliJ Plugin inspired by [CopyNice](https://github.com/madskristensen/CopyNice). Copying code
