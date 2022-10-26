@@ -6,9 +6,31 @@
 
 <!-- Plugin description -->
 
-An IntelliJ Plugin inspired by [CopyNice](https://github.com/madskristensen/CopyNice).
+An IntelliJ Plugin inspired by [CopyNice](https://github.com/madskristensen/CopyNice). Copying code
+without indentation.
 
 <!-- Plugin description end -->
+
+If you ever tried to copy code from an IntelliJ IDE and paste into another program like a messanger
+or a notepad, you may have noticed that the code is not indented properly, and most likely you will 
+end up in situations like this:
+
+| Original from IntelliJ IDE                                           | Pasted into Notepad                                                   |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------|
+| ![Improper intended code](./assets/screenshots/idea_hello_world.png) | ![Improper intended code](./assets/screenshots/gedit_hello_world.png) |
+
+Say hello to CopyNice! This plugin will copy the code without indentation, so you can paste it 
+properly. Just click on the action button provided and enjoy!
+
+| Original from IntelliJ IDE                                              | Pasted into Notepad                                                    |
+|-------------------------------------------------------------------------|------------------------------------------------------------------------|
+| ![Improper intended code](./assets/screenshots/idea_hello_copynice.png) | ![Proper intended code](./assets/screenshots/gedit_hello_copynice.png) |
+
+## Usage
+
+There is an entry provided in the editor popout menu. You can also assign a shortcut for the action.
+
+![Editor Popout](./assets/screenshots/editor_popout_copy_without_indentation.png)
 
 ## Installation
 
