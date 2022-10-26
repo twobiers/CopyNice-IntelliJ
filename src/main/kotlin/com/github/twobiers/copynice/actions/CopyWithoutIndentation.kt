@@ -37,7 +37,7 @@ class CopyWithoutIndentation : AnAction(), DumbAware {
     if (indentationText.isNotBlank()) {
       HintManager.getInstance().showErrorHint(
         editor,
-        "Caret must be at beginning of indentation"
+        "Caret must be at the end of indentation"
       )
       return
     }
