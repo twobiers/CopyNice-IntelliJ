@@ -29,6 +29,7 @@ properly. Just click on the action button provided and enjoy!
 ## Usage
 
 There is an entry provided in the editor popout menu. You can also assign a shortcut for the action.
+The action might not work well, if your code is not intended consistent.
 
 ![Editor Popout](./assets/screenshots/editor_popout_copy_without_indentation.png)
 
