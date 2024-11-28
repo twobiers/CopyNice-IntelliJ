@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 
+## [0.2.1]
+# Fixes%0D%0A%0A* Fix versions
+
 ## [0.1.1]
 ### Added
 - Plugin Icon
